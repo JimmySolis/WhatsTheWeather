@@ -12,7 +12,6 @@ let city = searchInput;
 
 
 
-var APIKey = "29ee67b28b1de671b680c9a9979fe487";
 
 
 
@@ -20,7 +19,7 @@ function getApi(event) {
 
   event.preventDefault();
  
-  var queryURL = `http://api.openweathermap.org/data/2.5/weather?q=${city.value}&appid=${APIKey}`;
+  var queryURL = `http://api.openweathermap.org/data/2.5/weather?q=${city.value}&appid=29ee67b28b1de671b680c9a9979fe487`;
 
  
 
@@ -39,7 +38,7 @@ function getApi(event) {
       cityHeader.innerHTML = `${city.value} (${date.getMonth() + 1}/${date.getDate()}/${date.getFullYear()}) <img class="ms-2 custom-img-size custom-bg-info rounded-4" src="https://openweathermap.org/img/wn/${icon}@2x.png"></img> `
       // console.log(lat)
       // console.log(lon)
-      var moreQueryURLinfo = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=imperial&exclude=hourly,minutely&appid=${APIKey}`;
+      var moreQueryURLinfo = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=imperial&exclude=hourly,minutely&appid=29ee67b28b1de671b680c9a9979fe487`;
 
 
 
@@ -200,7 +199,7 @@ function selectedHistoryBtn(e){
 
     
    
-    var queryURL = `http://api.openweathermap.org/data/2.5/weather?q=${cityNameBtn}&appid=${APIKey}`;
+    var queryURL = `http://api.openweathermap.org/data/2.5/weather?q=${cityNameBtn}&appid=29ee67b28b1de671b680c9a9979fe487`;
   
    
   
@@ -219,7 +218,7 @@ function selectedHistoryBtn(e){
         cityHeader.innerHTML = `${cityNameBtn} (${date.getMonth() + 1}/${date.getDate()}/${date.getFullYear()}) <img class="ms-2 custom-img-size custom-bg-info rounded-4" src="https://openweathermap.org/img/wn/${icon}@2x.png"></img> `
         console.log(lat)
         console.log(lon)
-        var moreQueryURLinfo = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=imperial&exclude=hourly,minutely&appid=${APIKey}`;
+        var moreQueryURLinfo = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=imperial&exclude=hourly,minutely&appid=29ee67b28b1de671b680c9a9979fe487`;
   
   
   
