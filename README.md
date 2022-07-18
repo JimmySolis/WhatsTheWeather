@@ -10,3 +10,11 @@ THEN I am presented with a 5-day forecast that displays the date, an icon repres
 WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city✅
 
+
+github repo : https://github.com/JimmySolis/WhatsTheWeather 
+
+github page: https://jimmysolis.github.io/WhatsTheWeather/
+
+![The weather app ](./Assests/img/Screen%20Shot%202022-07-18%20at%202.54.19%20PM.png)
+
+![The weather app](./Assests/img/Screen%20Shot%202022-07-18%20at%202.59.14%20PM.png)
