@@ -2,7 +2,7 @@ header{
     border: solid black;
     background:  linear-gradient(to right, rgb(64, 97, 181) , rgb(29, 9, 72));
     padding: 25px;
-    width: 100vw;
+    width: 100%;
     font-weight: bold;
 }
 
@@ -99,5 +99,20 @@ hr.one{
 
 
 @media only screen and (max-width: 600px) {
-  
+    .main{
+        border: solid 2px black;
+        margin: 20px;
+        height: 400px;
+        width: 75vw;
+       padding: 20px ;
+       text-align: center;
+    
+    }
+
+    .widgets{
+        margin: 20px;
+        height: 300px;
+        width: 70vw;
+        text-align: center;
+    }
   }
