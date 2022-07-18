@@ -2,6 +2,7 @@ header{
     border: solid black;
     background:  linear-gradient(to right, rgb(64, 97, 181) , rgb(29, 9, 72));
     padding: 25px;
+    width: 100vw;
     font-weight: bold;
 }
 
@@ -80,9 +81,23 @@ hr.one{
     background-color: rgb(49, 62, 79) ;
     margin: 9px;
     height: 250px;
-    width: 11vw;
+    width: 180px;
     color: white;
+    transition: 1s;
 
 }
 
+.widgetsButton:hover{
+    
+    background-color: rgba(134, 255, 255, 0.596);
+    color: black;
+}
 
+.img{
+    height: 45px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  
+  }
