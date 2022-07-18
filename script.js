@@ -19,7 +19,7 @@ function getApi(event) {
 
   event.preventDefault();
  
-  var queryURL = `http://api.openweathermap.org/data/2.5/weather?q=${city.value}&appid=29ee67b28b1de671b680c9a9979fe487`;
+  var queryURL = `https://api.openweathermap.org/data/2.5/weather?q=${city.value}&appid=29ee67b28b1de671b680c9a9979fe487`;
 
  
 
@@ -199,7 +199,7 @@ function selectedHistoryBtn(e){
 
     
    
-    var queryURL = `http://api.openweathermap.org/data/2.5/weather?q=${cityNameBtn}&appid=29ee67b28b1de671b680c9a9979fe487`;
+    var queryURL = `https://api.openweathermap.org/data/2.5/weather?q=${cityNameBtn}&appid=29ee67b28b1de671b680c9a9979fe487`;
   
    
   
