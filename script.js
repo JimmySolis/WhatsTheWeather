@@ -312,7 +312,7 @@ function selectedHistoryBtn(e){
       tempBtn3.innerHTML = `Temp: ${dailyInfo3.temp.day}℉`
   
       let windBtn3 = document.getElementById('windBtn3');
-      windBtn2.innerText = `Wind: ${dailyInfo2.wind_speed} MPH`
+      windBtn3.innerText = `Wind: ${dailyInfo2.wind_speed} MPH`
   
       let humBtn3 = document.getElementById('humBtn3');
       humBtn3.innerHTML = `Humidity: ${dailyInfo3.humidity} %`
