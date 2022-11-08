@@ -4,9 +4,9 @@ Github repo : https://github.com/JimmySolis/WhatsTheWeather
 
 Website: https://jimmysolis.github.io/WhatsTheWeather/
 
-![The weather app ](/WhatsTheWeather/Assests/img/nowSearch.png)
+![The weather app ](/Assests/img/nowSearch.png)
 
-![The weather app](/WhatsTheWeather/Assests/img/Search.png)
+![The weather app](/Assests/img/Search.png)
 
 ## Description
 
@@ -38,24 +38,24 @@ Please email me if you have anyquestions.
 
 ### 1) For this website I decided to only use bootstrap. Striving to learn the tech.
 
-![The weather app](/WhatsTheWeather/Assests/img/bootstrap.png)
+![The weather app](/Assests/img/bootstrap.png)
 
 ### 2) Here is the fairly simplified code. Leveraging bootstrap and not using CSS to formate the page.
 
-![The weather app](/WhatsTheWeather/Assests/img/layout.png)
+![The weather app](/Assests/img/layout.png)
 
 ### 3) I then add a script tag the will allow me to retrieve the data needed.
 
-![The weather app](/WhatsTheWeather/Assests/img/script.png)
+![The weather app](/Assests/img/script.png)
 
 ### 4) Next, I declare all of my variable so that I can dynamically change them in the DOM.
 
-![The weather app](/WhatsTheWeather/Assests/img/declare.png)
+![The weather app](/Assests/img/declare.png)
 
 ### 5) Here is where i make the original api call to access the data from Weather app. With string interpolation I am able to dynamically change the city that the user wants.
 
-![The weather app](/WhatsTheWeather/Assests/img/Api.png)
+![The weather app](/Assests/img/Api.png)
 
 ### 6) This is the code I used for the button displaying the data. I recycle the code and reuse it for every button as well in the next function that makes a request off of the search history.
 
-![The weather app](/WhatsTheWeather/Assests/img/btnDisplay.png)
+![The weather app](/Assests/img/btnDisplay.png)
