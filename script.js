@@ -9,12 +9,6 @@ var uv  = document.getElementById('uv')
 
 let city = searchInput;
 
-
-
-
-
-
-
 function getApi(event) {
 
   event.preventDefault();
